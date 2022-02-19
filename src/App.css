@@ -1,0 +1,183 @@
+body {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-color: rgba(128, 128, 128, 0.486);
+    background-repeat: no-repeat;
+    font-family: "Teko", sans-serif;
+}
+ /* flex-wrap: wrap; */
+ /* background-image: linear-gradient(to right, rgb(255, 253, 253), rgba(118, 118, 118, 0.279)); */
+
+h1 {
+    font-size: 75px;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+hr {
+    background-color: rgba(0, 0, 0, 0.233);
+    height: 1px;
+    width: 75%;
+    border: 0 none;
+}
+
+.rule-2 {
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 1px;
+    width: 8%;
+    border: 0 none;
+}
+
+/* ========== NAVBAR; PROFILE PIC AND NAME; PROFILE DESCRIPTION ========= */
+.navbar > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 0;
+    /* max-width: 100%; */
+}
+
+.navbar > ul > li {
+    margin: 25px;
+    text-align: center;
+}
+
+.navbar > ul > li > a {
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.navbar > ul > li > a:hover {
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    font-size: 28px;
+    color: #8b8b8be3;
+}
+
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 7px #7f7f7ffa;
+}
+
+.programmer-name {
+    text-align: center;
+}
+
+.profile-description {
+    font-size: 25px;
+    max-width: 70%;
+    text-align: center;
+    letter-spacing: 0.75px;
+}
+
+/* ==================== LIST ITEM STYLES FOR EXPERIENCE AND HOBBIES ====================== */
+.pro-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 10px 30px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+/* ==================== PROJECTS ====================== */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 0 0 / 67%);
+    box-shadow: 8px 10px 15px #00000063;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    width: 275px;
+    height: 220px;
+}
+
+.project-card > a {
+    color: #dddddde3;
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.project-card > a:hover {
+    font-size: 28px;
+    color: #8b8b8be3;
+}
+
+.project-card > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 75%; */
+    margin: 0 auto;
+    padding: 0;
+}
+
+.project-card > ul > li {
+    color: #dddddde3;
+    padding: 5px;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.project-card:hover {
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.project-card > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ==================== FOOTER ====================== */
+footer {
+    padding: 10px 0 10px 0;
+    background-color: rgba(128, 128, 128, 0.486);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
