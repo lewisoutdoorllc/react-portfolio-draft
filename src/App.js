@@ -10,7 +10,7 @@ import Projects from './componets/Projects';
 
 function App() {
   return (
-    <div className="App font-teko">
+    <div className="App">
       <Navbar />
       <About />
       <Experience />
