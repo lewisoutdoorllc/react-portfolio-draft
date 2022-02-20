@@ -5,7 +5,7 @@ function Experience() {
         <div name="experience" className="flex flex-col justify-center items-center">
             <h2>Experience</h2>
             <hr className="rule-2"></hr>
-            <ul className="flex flex-wrap items-center justify-center w-2/3 gap-5 text-2xl tracking-wide my-8">
+            <ul className="flex flex-wrap items-center justify-center w-3/5 gap-5 text-2xl tracking-wide my-8">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>

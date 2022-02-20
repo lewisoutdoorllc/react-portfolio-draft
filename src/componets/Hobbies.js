@@ -5,7 +5,7 @@ function Hobbies() {
         <div name="hobbies" className="flex flex-col justify-center items-center">
             <h2>Hobbies</h2>
             <hr className="rule-2"></hr>
-            <ul className="pro-list my-8">
+            <ul className="pro-list my-8 w-3/5">
                 <li>Fabrication</li>
                 <li>Coding</li>
                 <li>R/C Cars</li>
