@@ -2,9 +2,8 @@ import React from 'react'
 
 function Hobbies() {
     return (
-        <div className="flex flex-col justify-center items-center">
+        <div name="hobbies" className="flex flex-col justify-center items-center">
             <h2>Hobbies</h2>
-            {/* <h2><a name="hobbies">Hobbies</a></h2> */}
             <hr className="rule-2"></hr>
             <ul className="pro-list my-8">
                 <li>Fabrication</li>

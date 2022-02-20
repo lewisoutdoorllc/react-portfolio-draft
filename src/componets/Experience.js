@@ -2,9 +2,8 @@ import React from 'react'
 
 function Experience() {
     return (
-        <div className="flex flex-col justify-center items-center">
+        <div name="experience" className="flex flex-col justify-center items-center">
             <h2>Experience</h2>
-            {/* <h2><a name="experience">Experience</a></h2> */}
             <hr className="rule-2"></hr>
             <ul className="flex flex-wrap items-center justify-center w-2/3 gap-5 text-2xl tracking-wide my-8">
                 <li>HTML</li>

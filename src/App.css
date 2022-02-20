@@ -36,6 +36,14 @@ hr {
 }
 
 /* ========== NAVBAR; PROFILE PIC AND NAME; PROFILE DESCRIPTION ========= */
+.navbar  {
+    text-decoration: none;
+    color: rgb(93, 93, 93);
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 25px;
+}
+
 .navbar > ul {
     list-style: none;
     display: flex;
@@ -44,22 +52,9 @@ hr {
     flex-wrap: wrap;
     margin: 5px;
     padding: 0;
-    /* max-width: 100%; */
 }
 
-.navbar > ul > li {
-    margin: 25px;
-    text-align: center;
-}
-
-.navbar > ul > li > a {
-    text-decoration: none;
-    color: rgb(93, 93, 93);
-    font-size: 25px;
-    letter-spacing: 1px;
-}
-
-.navbar > ul > li > a:hover {
+.navbar:hover {
     cursor: pointer;
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;

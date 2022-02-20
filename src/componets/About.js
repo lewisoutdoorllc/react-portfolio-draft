@@ -2,8 +2,7 @@ import React from 'react'
 
 function About() {
     return (
-        <div className="flex flex-col justify-center items-center">
-            {/* <a name="about"></a> */}
+        <div name="about" className="flex flex-col justify-center items-center">
             <img className="profile-pic" src="images/IMG_9994 (1).jpg" alt="Cody"></img>
             <h1 className="programmer-name">Cody Lewis</h1>
             <hr className="rule-2"></hr>

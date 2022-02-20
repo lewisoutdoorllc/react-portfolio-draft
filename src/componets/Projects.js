@@ -45,7 +45,7 @@ function Projects() {
     return (
         <div className="">
 
-            <div className="flex flex-col justify-center items-center">
+            <div name="projects" className="flex flex-col justify-center items-center">
                 <h2 className="">Projects</h2>
                 {/* <h2><a name="projects">Projects</a></h2> */}
                 <hr className="rule-2"></hr>
